@@ -26,9 +26,11 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: ["@nuxtjs/vuetify"],
 
-  // vuetify: {
-  //   optionsPath: "~styles/vuetify.config.js",
-  // },
+  vuetify: {
+    treeShake: true,
+    customVariables: ["~/styles/_vars.scss"],
+    optionsPath: "~styles/vuetify.config.js",
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],

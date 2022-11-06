@@ -1,7 +1,7 @@
 export default {
   breakpoint: {
     thresholds: {
-      xs: 340,
+      xs: 0,
       sm: 540,
       md: 800,
       lg: 1280,
