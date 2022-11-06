@@ -24,14 +24,11 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // Simple usage
-    "@nuxtjs/vuetify",
-  ],
+  buildModules: ["@nuxtjs/vuetify"],
 
-  vuetify: {
-    optionsPath: "./styles/vuetify.config.js",
-  },
+  // vuetify: {
+  //   optionsPath: "~styles/vuetify.config.js",
+  // },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],

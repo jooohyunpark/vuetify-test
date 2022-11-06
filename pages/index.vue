@@ -19,6 +19,10 @@
 <script>
 export default {
   name: "IndexPage",
+  mounted() {
+    console.log("!!");
+    console.log(this.$vuetify);
+  },
 };
 </script>
 
@@ -26,6 +30,6 @@ export default {
 .box {
   width: 100%;
   height: 50px;
-  background: gray;
+  background: black;
 }
 </style>
